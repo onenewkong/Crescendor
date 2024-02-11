@@ -16,8 +16,8 @@ public class UI_SongPopup : UI_Popup
     private void Start()
     {
         Init();
-    }
 
+    }
     public override void Init()
     {
         base.Init();
@@ -27,7 +27,7 @@ public class UI_SongPopup : UI_Popup
         GetButton((int)Buttons.CloseBtn).gameObject.BindEvent(CloseBtnClicked);
         transform.Find("Panel/Title").GetComponent<TextMeshProUGUI>().text = PlayerPrefs.GetString("trans_SongTitle");
     }
-
+    
     public void PracticeBtnClicked(PointerEventData data)
     {
         SceneManager.LoadScene("PracticeModScene");

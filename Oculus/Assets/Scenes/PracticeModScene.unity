@@ -654,7 +654,7 @@ MonoBehaviour:
     m_Bits: 4294967295
   m_InteractionLayers:
     m_Bits: 4294967295
-  m_AttachTransform: {fileID: 0}
+  m_AttachTransform: {fileID: 1997452684}
   m_KeepSelectedTargetValid: 1
   m_DisableVisualsWhenBlockedInGroup: 1
   m_StartingSelectedInteractable: {fileID: 0}
@@ -1474,7 +1474,7 @@ MonoBehaviour:
     m_Bits: 4294967295
   m_InteractionLayers:
     m_Bits: 4294967295
-  m_AttachTransform: {fileID: 0}
+  m_AttachTransform: {fileID: 1997452683}
   m_KeepSelectedTargetValid: 1
   m_DisableVisualsWhenBlockedInGroup: 1
   m_StartingSelectedInteractable: {fileID: 0}
@@ -4487,16 +4487,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c01fafae9e0b35644be590641778191b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  songTitleTMP: {fileID: 325627725}
-  songNoteMountTMP: {fileID: 1890257808}
-  songBpmTMP: {fileID: 1926816481}
-  songBeatTMP: {fileID: 787667554}
-  songTimeSlider: {fileID: 1597703027}
-  songTimeSliderHandle: {fileID: 916419948}
-  loopStartMarker: {fileID: 948714336}
-  loopStartMarkerSprite: {fileID: 948714338}
-  loopEndMarker: {fileID: 228231218}
-  loopEndMarkerSprite: {fileID: 228231220}
+  songTitleTMP: {fileID: 0}
+  songNoteMountTMP: {fileID: 0}
+  songBpmTMP: {fileID: 0}
+  songBeatTMP: {fileID: 0}
+  songTimeSlider: {fileID: 0}
+  songTimeSliderHandle: {fileID: 0}
+  loopStartMarker: {fileID: 0}
+  loopStartMarkerSprite: {fileID: 0}
+  loopEndMarker: {fileID: 0}
+  loopEndMarkerSprite: {fileID: 0}
 --- !u!1 &1162924382
 GameObject:
   m_ObjectHideFlags: 0
@@ -4914,14 +4914,14 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 480151222}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_VertexColorAlwaysGammaSpace: 0
+  m_VertexColorAlwaysGammaSpace: 1
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
@@ -6088,6 +6088,16 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1926816479}
   m_CullTransparentMesh: 1
+--- !u!4 &1997452683 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 754127783449087631, guid: f39a9d103c4129b42a53567f6cd8356a, type: 3}
+  m_PrefabInstance: {fileID: 758498796}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1997452684 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9111728626653979497, guid: f39a9d103c4129b42a53567f6cd8356a, type: 3}
+  m_PrefabInstance: {fileID: 758498796}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1998561937
 GameObject:
   m_ObjectHideFlags: 0

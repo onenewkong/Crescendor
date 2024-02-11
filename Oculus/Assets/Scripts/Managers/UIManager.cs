@@ -72,8 +72,9 @@ public class UIManager
     public void SetCanvas(GameObject go, bool sort = true)
     {
         Canvas canvas = Util.GetOrAddComponent<Canvas>(go);
-        canvas.renderMode = RenderMode.ScreenSpaceOverlay;
+        canvas.renderMode = RenderMode.WorldSpace;
         canvas.overrideSorting = true;
+        canvas.vertexColorAlwaysGammaSpace = true;
 
         if (sort)
         {

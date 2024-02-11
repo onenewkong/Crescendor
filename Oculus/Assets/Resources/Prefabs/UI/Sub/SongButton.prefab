@@ -49,7 +49,7 @@ GameObject:
   - component: {fileID: 6474964876288877888}
   - component: {fileID: 9136423095373143060}
   - component: {fileID: 2075486150218673527}
-  - component: {fileID: 3784451785989910030}
+  - component: {fileID: 8816232044409150421}
   m_Layer: 5
   m_Name: SongButton
   m_TagString: Untagged
@@ -162,7 +162,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &3784451785989910030
+--- !u!114 &8816232044409150421
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -178,8 +178,8 @@ MonoBehaviour:
   m_SmoothingSpeed: 16
   m_ReturnToInitialPosition: 1
   m_ApplyIfChildIsTarget: 1
-  m_ClampToMaxDistance: 1
-  m_MaxDistance: 20
+  m_ClampToMaxDistance: 0
+  m_MaxDistance: 0
 --- !u!1 &3077186806571393924
 GameObject:
   m_ObjectHideFlags: 0
