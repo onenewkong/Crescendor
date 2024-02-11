@@ -591,6 +591,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5535647284149498913}
   - component: {fileID: 4894257829346613312}
+  - component: {fileID: 4605769354230147676}
   m_Layer: 5
   m_Name: Item
   m_TagString: Untagged
@@ -669,6 +670,24 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_IsOn: 1
+--- !u!114 &4605769354230147676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 859140158721977673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07b3638c2f5db5b479ff24c2859713d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PokeFollowTransform: {fileID: 6102956827633786161}
+  m_SmoothingSpeed: 16
+  m_ReturnToInitialPosition: 1
+  m_ApplyIfChildIsTarget: 1
+  m_ClampToMaxDistance: 0
+  m_MaxDistance: 0
 --- !u!1 &1192908005863978786
 GameObject:
   m_ObjectHideFlags: 0
@@ -1098,7 +1117,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -380.30017, y: -0.008666992}
+  m_AnchoredPosition: {x: -380.30017, y: -0.00018310547}
   m_SizeDelta: {x: 760.6, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &691317614217053296
@@ -1792,8 +1811,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 3385734237943765215}
   m_HandleRect: {fileID: 4905878945773778275}
   m_Direction: 2
-  m_Value: 0
-  m_Size: 0.99998343
+  m_Value: 1
+  m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -4171,7 +4190,7 @@ RectTransform:
   - {fileID: 7601266060761944769}
   - {fileID: 8476536352132765741}
   m_Father: {fileID: 0}
-  m_RootOrder: -1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -4756,8 +4775,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2122125197740232203}
   m_HandleRect: {fileID: 3530955125543705399}
   m_Direction: 2
-  m_Value: 0.50010866
-  m_Size: 0.8872744
+  m_Value: 0.5
+  m_Size: 0.88730764
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -7295,7 +7314,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 8.406738, y: -0.024414062}
+  m_AnchoredPosition: {x: 8.406738, y: 0}
   m_SizeDelta: {x: 777.42957, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7489332683776016444
