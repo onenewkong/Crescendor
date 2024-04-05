@@ -6,7 +6,7 @@ using Unity.Mathematics;
 
 // Option Manager 생성 이후 구조 변경 필요
 
-public class PianoWidthController : MonoBehaviour
+public class PianoWidthUIController : MonoBehaviour
 {
     private float leftpos;
     private float rightpos;
