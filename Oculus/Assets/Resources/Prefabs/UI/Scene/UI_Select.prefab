@@ -121,8 +121,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2430183904617430014}
   m_HandleRect: {fileID: 6697490619193673404}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 0.18203883
+  m_Value: 1.0000137
+  m_Size: 0.18202361
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1266,6 +1266,7 @@ GameObject:
   - component: {fileID: 8208487348158094089}
   - component: {fileID: 6905831121514386921}
   - component: {fileID: 671690798864366676}
+  - component: {fileID: 1291669982521675445}
   m_Layer: 5
   m_Name: UI_Select
   m_TagString: Untagged
@@ -1391,6 +1392,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56e348e53d8dbc940b2305f0be0243ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1291669982521675445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1689039514713726705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7ecff74e52843a41ab3a441ac81379e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _canvas: {fileID: 0}
+  _renderScale: 1
+  _dimensionsDriveMode: 0
+  _resolution: {x: 128, y: 128}
+  _generateMipMaps: 0
+  _pixelsPerUnit: 100
+  _renderingLayers:
+    serializedVersion: 2
+    m_Bits: 32
 --- !u!1 &2086399452548069149
 GameObject:
   m_ObjectHideFlags: 0
@@ -1966,7 +1988,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 605.1, y: 765.5}
+  m_AnchoredPosition: {x: 605.1, y: 765.494}
   m_SizeDelta: {x: 800, y: 0}
   m_Pivot: {x: 1, y: 1}
 --- !u!222 &6652566433876398714
@@ -3522,7 +3544,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -380.30017, y: 0}
+  m_AnchoredPosition: {x: -380.30017, y: 0.026611328}
   m_SizeDelta: {x: 760.6, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &4312724430609705978
@@ -6195,8 +6217,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 6595779250737192202}
   m_HandleRect: {fileID: 6952165160803230544}
   m_Direction: 2
-  m_Value: 0
-  m_Size: 1
+  m_Value: 1
+  m_Size: 0.99998146
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
